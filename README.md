@@ -21,7 +21,7 @@ O sistema utiliza um **ESP32** como unidade central de processamento, integrado 
 - Sensor BMP180
 - Sensor DHT22 (AM2302)
 - Sensor MQ135
-- Placa de circuito impresso com reguladores de tensão de 5 V e 3,3 V
+- Placa de circuito impresso com reguladores de tensão de 5V e 3,3V
 - Protoboard
 - Jumpers
 
@@ -40,7 +40,7 @@ O sistema utiliza um **ESP32** como unidade central de processamento, integrado 
 
 O sistema hospeda uma página HTML diretamente no ESP32, apresentando:
 
-- Dashboard estilo SCADA
+- Dashboard SCADA
 - Indicadores (gauges)
 - Gráfico de tendência em tempo real
 - Atualização automática a cada 2 segundos
@@ -74,8 +74,7 @@ retornando as medições em formato JSON.
 ├── firmware/
 │   └── esp32.ino
 ├── imagens/
-├── relatorio/
-├── dashboard/
+├── relatorios/
 └── README.md
 ```
 
